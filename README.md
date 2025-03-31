@@ -20,16 +20,16 @@
 Clone the repository
 
 ```bash
-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project
-```
+https://github.com/ajgithub5/kidney-disease-classification.git
+
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n kidney python=3.8 -y
 ```
 
 ```bash
-conda activate cnncls
+conda activate kidney
 ```
 
 
@@ -66,19 +66,19 @@ open up you local host and port
 [dagshub](https://dagshub.com/)
 
 MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_USERNAME= \
+MLFLOW_TRACKING_PASSWORD=\
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
+export MLFLOW_TRACKING_URI=
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=
 
 ```
 
@@ -140,7 +140,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -176,6 +176,6 @@ DVC
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = 
